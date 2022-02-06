@@ -1,0 +1,25 @@
+import React from 'react';
+import './commoncss/bootstrap.css';
+import './commoncss/font-icon.css';
+import './App.css';
+import Header from './components/Header';
+import WeadingDate from './components/WeadingDate';
+import CountDown from './components/CountDown';
+import Invitation from './components/Invitation';
+import WeadingDetails from './components/WeadingDetails2';
+import Weadingloaction from './components/Weadingloaction'
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+     <WeadingDate />
+     <CountDown />
+     <Invitation />
+     <Weadingloaction />
+     <WeadingDetails />
+    </div>
+  );
+}
+
+export default App;
