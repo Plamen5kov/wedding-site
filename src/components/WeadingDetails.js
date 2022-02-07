@@ -9,7 +9,7 @@ const WeadingDetails = () => {
                     <div className="col-sm-10">
 
                         <div className="heading">
-                            <h2 className="title">Wedding Details</h2>
+                            <h4 className="title">Wedding Details</h4>
                             <span className="heading-bottom"><i className="icon icon-star"></i></span>
                         </div>
 

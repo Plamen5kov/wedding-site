@@ -8,9 +8,8 @@ const Weadingloaction = () => {
 				<div className="col-sm-10">
 
 					<div className="heading">
-						<h2 className="title">Сватбена програма</h2>
+						<h4 className="title">Сватбена програма</h4>
 						<p>*часовете може да се променят: следете сайта</p>
-						<span className="heading-bottom"><i className="icon icon-star"></i></span>
 					</div>
 
 					<div className="wedding-details margin-bottom">
@@ -23,30 +22,27 @@ const Weadingloaction = () => {
 						</div>
 						<div className="w-detail right">
 							<i className="icon icon-ciurclke"></i>
-							<h4 className="title">Сватбена церемония</h4>
-							<p>12:00</p>
+							<h4 className="title">Изнесен ритуал</h4>
+							<h4 style={{'font-style': 'italic', 'font-size': '1em'}}>Във винарната на Старосел</h4>
+							<p>16:00</p>
 						</div>
 
 						<div className="w-detail left">
 							<i className="icon icon-wine-glass"></i>
-							<h4 className="title">Коктейл</h4>
-							<p>14:00</p>
+							<h4 className="title">Welcome drink и приемане на поздравления</h4>
+							<p>17:00</p>
 						</div>
 
 						<div className="w-detail right">
 							<i className="icon icon-cake"></i>
-							<h4 className="title">Празненство</h4>
-							<p>18:00</p>
+							<h4 className="title">Начало на сватбеното тържество</h4>
+							<h4 style={{'font-style': 'italic', 'font-size': '1em'}}>В зала Орфей</h4>
+							<p>19:00</p>
 						</div>
-
-						<div className="w-detail left">
-							<i className="icon icon-wine-glass"></i>
-							<h4 className="title">Вечеря</h4>
-							<p>От 20:00 нататък...</p>
-						</div>
-
 					</div>
-
+					<div className="heading">
+						<span className="heading-bottom"><i className="icon icon-star"></i></span>
+					</div>
 				</div>
 			</div>
 		</div>

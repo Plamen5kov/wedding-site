@@ -10,16 +10,17 @@ const Invitation = () => {
                     <div className="col-sm-1"></div>
                     <div className="col-sm-10">
                         <div className="heading">
-                            <h2>Здравейте!</h2>
-                            <p>Каним ви да бъдете част от най-важният момент през живота ни до сега!</p>
-                            <span className="heading-bottom"><i className="icon icon-star"></i></span>
+                            <p>В ден благословен съдбата нас събра и животът ни изпълни се от Любовта. С криле дарени, за да полетим решихме остатъка от дните си да споделим. Към нас за празник се присъединете, денята ни сватбен увежете и нашата покана приемете!</p>
                         </div>
 
+                        <div className="heading">
+                            <h3>Младоженци</h3>
+                        </div>
                         <div className="couple-wrap">
                             <div className="couple-half">
                                 <div className="groom">
                                     <img src={bride} style={{backgroundImage: `url(${brideback})`, backgroundSize: 'cover',
-    backgroundRepeat: "no-repeat"}}  alt="groom" className="img-responsive" />
+    backgroundRepeat: "no-repeat"}}  alt="groom" />
                                 </div>
                                 <div className="desc-groom">
                                     <h3>Даяна Георгиева</h3>
@@ -32,12 +33,37 @@ const Invitation = () => {
                             </p>
                             <div className="couple-half">
                                 <div className="bride">
-                                    <img src={groom} alt="bride" className="img-responsive" />
+                                    <img src={groom} alt="bride" />
                                 </div>
                                 <div className="desc-bride">
                                     <h3>Пламен Петков</h3>
                                 </div>
                             </div>
+                        </div>
+                        <div className="heading">
+                            <h3>Кумуват</h3>
+                        </div>
+                        <div className="couple-wrap">
+                            <div className="couple-half">
+                                <div className="groom">
+                                    <img src={bride} style={{backgroundImage: `url(${brideback})`, backgroundSize: 'cover',
+    backgroundRepeat: "no-repeat"}}  alt="groom" />
+                                </div>
+                                <div className="desc-groom">
+                                    <h3>Милена</h3>
+                                </div>
+                            </div>
+                            <div className="couple-half">
+                                <div className="bride">
+                                    <img src={groom} alt="bride" />
+                                </div>
+                                <div className="desc-bride">
+                                    <h3>Марто</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="heading">
+                            <span className="heading-bottom"><i className="icon icon-star"></i></span>
                         </div>
 
                     </div>

@@ -543,7 +543,7 @@ h1, .h1 {
   font-size: 2.5rem;
 }
 
-h2, .h2 {
+h2, .h4 {
   font-size: 2rem;
 }
 
@@ -753,6 +753,8 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+
+.format-story { text-align: justify; font-style: italic;}
 
 .container {
   position: relative;

@@ -53,8 +53,7 @@ const CountDown = () => {
                 <div className="row">
                     <div className="col-sm-12">
                         <div className="heading">
-                            <h2 className="title">Отброяване до сватбата!</h2>
-                            <span className="heading-bottom"><i className="color-white icon icon-star"></i></span>
+                            <h4 className="title">Отброяване до сватбата!</h4>
                         </div>
                     </div>
 

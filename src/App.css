@@ -72,7 +72,7 @@ b.light-color{ color: #444; }
 .border-btn:hover:before{ transform: translateX(0%); }
 
 
-.section{ padding: 100px 0 70px; }
+.section{ padding: 20px 0 20px; }
 
 .section .heading{ padding-bottom: 40px; }
 
@@ -209,7 +209,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 --------------------------------- */
 
 .main-slider{ height: 100vh; position: relative; z-index: 1; 
-	background-image: url(./images/slider-1-1600x900.jpg); background-size: cover; color: #fff; } 
+	background-image: url(./images/white-rings.jpg); background-size: cover; color: #fff; } 
 
 .main-slider:after{ content:''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; 
 	z-index: -1; background: rgba(0,0,0,.3); }
@@ -252,6 +252,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .remaining-time .time-sec .title{ font-size: 3em; line-height: 1; display: block; }
 
+.form { font-size: 2em; line-height: 1; display: block; color: #2596be }
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.05); }
@@ -389,6 +390,7 @@ footer .copyright{ padding: 20px 0 30px; }
 
 .couple-wrap {
   margin: 0 auto;
+  margin-bottom: 12em;
   position: relative;
 }
 
@@ -396,6 +398,12 @@ footer .copyright{ padding: 20px 0 30px; }
   width: 50%;
   float: left;
 }
+
+.couple-third {
+	width: 33%;
+	float: left;
+  }
+
 .couple-half h3 {
   color: #2596be;
   font-size: 2em;
@@ -626,6 +634,7 @@ footer .copyright{ padding: 20px 0 30px; }
 
 	.w-detail.left,
 	.w-detail.right{ text-align: left; float: none; }
+	.format-story { text-align: left; font-weight: bold;}
 
 	.w-detail.right:after,
 	.w-detail.left:after{ left: 0; margin-left: -9px; }
