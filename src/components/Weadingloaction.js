@@ -9,7 +9,7 @@ const Weadingloaction = () => {
 
 					<div className="heading">
 						<h4 className="title">Сватбена програма</h4>
-						<p>*часовете може да се променят: следете сайта</p>
+						<p>*часовете може да се променят, следете сайта</p>
 					</div>
 
 					<div className="wedding-details margin-bottom">
