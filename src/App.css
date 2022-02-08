@@ -252,6 +252,13 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 
 .remaining-time .time-sec .title{ font-size: 3em; line-height: 1; display: block; }
 
+.remaining-time2 .time-sec2{ position: relative; display: inline-block; margin: 0 0px; margin-bottom: 0px; 
+	height: 70px; width: 70px; padding-top: 15px; border-radius: 100px;
+	color: #000;}
+  
+.remaining-time2 .time-sec2 .title{ font-size: 1em; line-height: 1; display: block; }
+
+  
 .form { font-size: 2em; line-height: 1; display: block; color: #2596be }
 @keyframes pulse {
   0% { transform: scale(1); }
