@@ -1,8 +1,9 @@
 import React from 'react';
+import ReactPlayer from "react-player";
 import '../OurStory.css';
 import met2 from '../images/met2.jpg'
-import met3 from '../images/met3.jpg'
 import met4 from '../images/met4.JPG'
+import kiss from '../images/kiss.mp4'
 const WeadingDetails = () => {
     return (
         <section className="section w-details-area center-text">
@@ -30,22 +31,22 @@ const WeadingDetails = () => {
                         </div>
                     </div>
                     <div className="couple-wrap">
-                            <div className="couple-third ">
-                                <div className="groom">
-                                    <img src={met2} alt="groom" className="img-responsive" />
-                                </div>
-                            </div>
-                            <div className="couple-third ">
-                                <div className="bride">
-                                    <img src={met3} alt="bride" className="img-responsive" />
-                                </div>
-                            </div>
-                            <div className="couple-third ">
-                                <div className="bride">
-                                    <img src={met4} alt="bride" className="img-responsive" />
-                                </div>
+                        <div className="couple-third ">
+                            <div className="groom">
+                                <img src={met2} alt="groom" className="img-responsive" />
                             </div>
                         </div>
+                        <div className="couple-third ">
+                            <div className="bride">
+                                <ReactPlayer url={kiss} width="75%" height="75%" style={{'marginLeft': '13%'}} controls={true} />
+                            </div>
+                        </div>
+                        <div className="couple-third ">
+                            <div className="bride">
+                                <img src={met4} alt="bride" className="img-responsive" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="heading">
                     <span className="heading-bottom"><i className="icon icon-star"></i></span>

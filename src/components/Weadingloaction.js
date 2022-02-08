@@ -23,7 +23,7 @@ const Weadingloaction = () => {
 						<div className="w-detail right">
 							<i className="icon icon-ciurclke"></i>
 							<h4 className="title">Изнесен ритуал</h4>
-							<h4 style={{'font-style': 'italic', 'font-size': '1em'}}>Във винарната на Старосел</h4>
+							<h4 style={{'fontStyle': 'italic', 'fontSize': '1em'}}>Във винарната на Старосел</h4>
 							<p>16:00</p>
 						</div>
 
@@ -36,7 +36,7 @@ const Weadingloaction = () => {
 						<div className="w-detail right">
 							<i className="icon icon-cake"></i>
 							<h4 className="title">Начало на сватбеното тържество</h4>
-							<h4 style={{'font-style': 'italic', 'font-size': '1em'}}>В зала Орфей</h4>
+							<h4 style={{'fontStyle': 'italic', 'fontSize': '1em'}}>В зала Орфей</h4>
 							<p>19:00</p>
 						</div>
 					</div>
