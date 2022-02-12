@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
-h1,h2,h3{ font-family: 'Playball', cursive; }
+h1,h2,h3{ font-family: 'Iowan Old Style', cursive; }
 
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
 
@@ -414,6 +414,7 @@ footer .copyright{ padding: 20px 0 30px; }
 .couple-half h3 {
   color: #2596be;
   font-size: 2em;
+  padding-top: 60px;
 }
 .couple-half h5 {
   color: rgb(58, 29, 41);
@@ -523,6 +524,7 @@ footer .copyright{ padding: 20px 0 30px; }
 
   .desc-groom {
     padding-right: 0;
+	vertical-align: middle;
     text-align: center;
   }
 
