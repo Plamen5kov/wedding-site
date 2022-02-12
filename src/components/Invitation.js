@@ -1,6 +1,6 @@
 import React from 'react';
-import groom from '../images/plamen.jpg';
-import bride from '../images/dayana.jpg';
+import groom from '../images/plamen1.jpg';
+import bride from '../images/dani1.jpg';
 import milena from '../images/milena.png';
 import marto from '../images/marto.jpg';
 import brideback from '../images/brideback.jpg';
@@ -21,11 +21,11 @@ const Invitation = () => {
                         <div className="couple-wrap">
                             <div className="couple-half">
                                 <div className="groom">
-                                    <img src={bride} style={{backgroundImage: `url(${brideback})`, backgroundSize: 'cover',
+                                    <img src={groom} style={{backgroundImage: `url(${brideback})`, backgroundSize: 'cover',
     backgroundRepeat: "no-repeat"}}  alt="groom" />
                                 </div>
                                 <div className="desc-groom">
-                                    <h3>Даяна Георгиева</h3>
+                                    <h3>Пламен Петков</h3>
                                 </div>
                             </div>
                             <p className="center-text heartp">
@@ -35,10 +35,10 @@ const Invitation = () => {
                             </p>
                             <div className="couple-half">
                                 <div className="bride">
-                                    <img src={groom} alt="bride" />
+                                    <img src={bride} alt="bride" />
                                 </div>
                                 <div className="desc-bride">
-                                    <h3>Пламен Петков</h3>
+                                    <h3>Даяна Георгиева</h3>
                                 </div>
                             </div>
                         </div>
